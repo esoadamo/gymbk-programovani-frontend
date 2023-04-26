@@ -41,7 +41,7 @@
       }
     },
     "footer": {
-      "license": "Obsah je dostupný pod licencí CC0",
+      "license": "Projekt vyvinut pro <a href='https://ksi.fi.muni.cz/' target='blank'>Korespondenční seminář z informatiky </a> a <a href='https://naskoc.fi.muni.cz/' target='blank'>Naskoč na FI</a>. Obsah tohoto webu je dostupný pod licencí CC BY-NC v4.0.",
       "version": "Verze webu",
       "bug-report": "Nahlásit chybu webu",
       "privacy-policy": "Zpracování osobních údajů"
