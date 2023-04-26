@@ -30,7 +30,6 @@
   <a [routerLink]="['/', routes.routes.tasks._]" class="tasks">
     <button class="btn-lg btn btn-ksi">{{'root.welcome.about.begin' | translate}}</button>
   </a>
-  <a  class="more-info" [routerLink]="['/', routes.routes.about]">- {{'root.welcome.about.more-info' | translate}} -</a>
   <div class="subjects">
     <a href="#" (click)="toggleAboutInfo(0)" [class.active]="aboutInfoShown && aboutInfoSlide === 0">
       {{'root.welcome.about.seminar.title' | translate}}

@@ -20,13 +20,13 @@
         "dark": "Světlý řežim"
       },
       "title": {
-        "long": "Naskoč na FI",
-        "short": "Naskoč"
+        "long": "Programování GymBk",
+        "short": "PrgGB"
       },
       "category": {
         "tasks": "Úlohy",
         "results": "Výsledky",
-        "about": "O Naskoč",
+        "about": "O PrgGB",
         "news": "Novinky",
         "discussion": "Diskuze",
         "admin": "Admin"
@@ -41,7 +41,7 @@
       }
     },
     "footer": {
-      "license": "Naskoč na FI je akcí <a href='https://zverinec.fi.muni.cz/' target='_blank'>Spolku přátel severské zvěře</a>. Zaujalo tě to? Přidej se do našeho týmu!",
+      "license": "Obsah je dostupný pod licencí CC0",
       "version": "Verze webu",
       "bug-report": "Nahlásit chybu webu",
       "privacy-policy": "Zpracování osobních údajů"
@@ -50,17 +50,17 @@
       "about": {
         "seminar": {
           "title": "Připrav se",
-          "text": "Naskoč na FI je soubor úloh, které tě připraví na tvoje začátky na Fakultě informatiky Masarykovy univerzity. V Naskoč na FI tě provedeme takovými oblastmi, které se ti budou na FI hodit téměř každodenně."
+          "text": "Programování GymBk je soubor úloh, které ti pomůžou s přípravou na různá informatická témata. V Programování GymBk tě provedeme takovými oblastmi, které se ti v budoucnu budou hodit téměř každodenně."
         },
         "kscuk": {
-          "title":  "Zorientuj se na vysoké",
-          "text": "Víš jak dlouhý je semestr? Co je to ten kredit? Jak se máš přihlásit na zkoušky a projekty? Na střední tyhle pojmy moc neměly smysl, ale na vysoké se ti bude hodit je ovládat jako lusknutím prstu."
+          "title":  "Zorientuj se",
+          "text": "Budeš všechno ovládat lusknutím prstu!"
         },
         "achievements": {
           "title": "Získej náskok",
-          "text": "Vyřeš všechny naše úlohy a přijď na FI se znalostmi, které ne všichni tvoji spolužáci budou mít. Díky tomu, že se nebudeš muset učit přihlásit se na fakultních počítačích, budeš moct využít získaný čas navíc na cokoliv, co si budeš přát!"
+          "text": "Vyřeš všechny naše úlohy a přijď se znalostmi, které ne všichni tvoji spolužáci budou mít."
         },
-        "begin":  "Chci naskočit",
+        "begin":  "Chci PrgGBit",
         "lets-start": "Jdu na to",
         "more-info": "Zjisti více"
       },
@@ -68,7 +68,7 @@
         "title": "Novinky"
       },
       "organisators": {
-        "title": "Organizátoři Naskoč na FI"
+        "title": "Organizátoři Programování GymBk"
       }
     }
   },
@@ -76,7 +76,7 @@
     "title": "Novinky"
   },
   "about": {
-    "title": "O Naskoč na FI"
+    "title": "O Programování GymBk"
   },
   "results": {
     "title": "Výsledky",
@@ -94,7 +94,7 @@
   },
   "modal": {
     "login": {
-      "title": "Přihlaš se do Naskoč na FI",
+      "title": "Přihlaš se do Programování GymBk",
       "email": "e-mail",
       "password": "heslo",
       "login": "Přihlásit se",
@@ -103,7 +103,7 @@
       "forgotten-password": "Neznám svoje heslo"
     },
     "register": {
-      "title": "Registruj se do Naskoč na FI",
+      "title": "Registruj se do Programování GymBk",
       "register": "Zaregistrovat se!",
       "fill-testing": "[DEV] Rychlá registrace",
       "optional": "Nepovinné - ",
@@ -138,11 +138,11 @@
         "title": "Moje škola",
         "name": "Jméno mé školy",
         "end": "Rok maturity",
-        "fi-mu": "Nastupuji na FI MU"
+        "fi-mu": "Jsem z GymBk"
       },
       "tos": {
         "title": "Souhlasy",
-        "agreed": "Souhlasím s pravidly Naskoč na FI a ",
+        "agreed": "Souhlasím s pravidly Programování GymBk a ",
         "text": "zpracováním svých osobních údajů"
       }
     },
@@ -177,7 +177,7 @@
     "feedback": {
       "email": "Tvůj e-mail - vyplň, pokud si přeješ, abychom tě mohli kontaktovat",
       "title": "Zaslání zpětné vazby organizátorům semináře",
-      "text": "Máš nějaký tip nebo nápad, co a jak zlepšit? Vyskočila na tebe nějaká chyba? Dej nám vědět, ať s tím můžeme něco dělat. Prosíme, <strong>nepoužívej</strong> tento formulář na dotazy k úlohám, či k průběhu semináře. Na tyto dotazy slouží diskuze nebo e-mail naskoc@fi.muni.cz. Děkujeme.",
+      "text": "Máš nějaký tip nebo nápad, co a jak zlepšit? Vyskočila na tebe nějaká chyba? Dej nám vědět, ať s tím můžeme něco dělat. Prosíme, <strong>nepoužívej</strong> tento formulář na dotazy k úlohám, či k průběhu semináře.",
       "submit": "Odeslat moji zpětnou vazbu",
       "content": "Co nám chceš sdělit?",
       "done": "A je to! Tvoje zpráva k nám úspěšně dorazila"
@@ -256,7 +256,7 @@
     "settings": {
       "open-button": "S čím mám začít?",
       "title": "Nápověda se začátkem",
-      "explanation": "<p>Ze začátku vidíš všechna zveřejněná témata letošního ročníku zabalená (až na jedno úvodní). Aby se nějaké rozbalilo, stačí na něj kliknout. Obecně vzato je jedno, jakým tématem se rozhodneš začít, znalost jednoho tématu by neměla být potřeba pro pochopení jiného. Vřele ti doporučujeme začít s první sekcí, ve které se dozvíš více o tom, jak Naskoč funguje. Pokud tě ale nejvíce zajímá konkrétní část z letošních témat, neboj se do nich pustit jako prvních!</p><p>Témata také budou v průběhu ročníku přibývat, o každé takové změně se dozvíš v rámci <a href=novinky>Novinek</a> nebo emailem. Navíc, některá témata se navzájem na sebe odkazují, pokud je tedy projdeš všechny, získáš vhled hned z několika stran. Nezapomeň ale, že úloha se ti otevře až poté, co vyřešíš všechny předchozí úlohy z tématu.</p><p>Tyto témata jsou v tuto chvíli zveřejněná:</p>",
+      "explanation": "<p>Ze začátku vidíš všechna zveřejněná témata letošního ročníku zabalená (až na jedno úvodní). Aby se nějaké rozbalilo, stačí na něj kliknout. Obecně vzato je jedno, jakým tématem se rozhodneš začít, znalost jednoho tématu by neměla být potřeba pro pochopení jiného. Vřele ti doporučujeme začít s první sekcí, ve které se dozvíš více o tom, jak PrgGB funguje. Pokud tě ale nejvíce zajímá konkrétní část z letošních témat, neboj se do nich pustit jako prvních!</p><p>Témata také budou v průběhu ročníku přibývat, o každé takové změně se dozvíš v rámci <a href=novinky>Novinek</a> nebo emailem. Navíc, některá témata se navzájem na sebe odkazují, pokud je tedy projdeš všechny, získáš vhled hned z několika stran. Nezapomeň ale, že úloha se ti otevře až poté, co vyřešíš všechny předchozí úlohy z tématu.</p><p>Tyto témata jsou v tuto chvíli zveřejněná:</p>",
       "empty": "<p>V tuto chvíli pro tebe v tomto ročníku ještě nemáme žádné úlohy. Pokud se ale zaregistruješ, tak ti přijde informační email hned, jakmile nějaká témata zveřejníme.</p>"
     },
     "solution": "Řešení",
@@ -421,9 +421,9 @@
       "prediction": {
         "normal": "Potřebuješ získat ještě {{percent}}% z celkového počtu bodů",
         "positive": {
-          "male": "Jsi úspěšným řešitelem Naskoč na FI",
-          "female": "Jsi úspěšnou řešitelkou Naskoč na FI",
-          "other": "Jsi úspěšným řešitelem Naskoč na FI"
+          "male": "Jsi úspěšným řešitelem Programování GymBk",
+          "female": "Jsi úspěšnou řešitelkou Programování GymBk",
+          "other": "Jsi úspěšným řešitelem Programování GymBk"
         },
         "negative": {
           "male": "V tomto ročníku se již nejspíše nemůžeš stát úspěšným řešitelem",

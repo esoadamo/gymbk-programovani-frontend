@@ -5,7 +5,7 @@ const doNothing = (): void => {};
 
 export const environment: Environment = {
   production: true,
-  backend: 'https://rest.naskoc.fi.muni.cz/',
+  backend: 'https://gymbkprg.adamhlavacek.com/api',
   edulint: 'https://edulint.rechtackova.cz/',
   urlPrefix: '',
   logger: {
@@ -15,5 +15,5 @@ export const environment: Environment = {
     warn: doNothing
   },
   mergeSimilarWaves: true,
-  oldFrontendUrl: 'https://naskoc_admin.iamroot.eu/'
+  oldFrontendUrl: 'https://gymbkprg-admin.adamhlavacek.com/'
 };

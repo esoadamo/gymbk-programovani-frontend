@@ -1,6 +1,6 @@
-# KSI Web frontend
+# GymBk Programming Web frontend
 
-This project was build upon the [Angular](https://angular.io/guide/) framework as an frontend for the [backend server](https://github.com/fi-ksi/web-backend). A knowledge of the Angular tutorial - [Tour of the heroes](https://angular.io/tutorial) - should be enough to make changes and improvements.
+This project was build upon the [Angular](https://angular.io/guide/) framework as an frontend for the [backend server](https://github.com/esoadamo/gymbk-programovani-web-backend/). A knowledge of the Angular tutorial - [Tour of the heroes](https://angular.io/tutorial) - should be enough to make changes and improvements.
 
 ## Table of content
 - [1 Clone](#1-clone)

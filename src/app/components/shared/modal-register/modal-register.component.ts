@@ -175,10 +175,10 @@ export class ModalRegisterComponent implements OnInit, ModalComponent {
 
   fillFIMU(): void {
     this.form.patchValue({
-      schoolName: 'Fakulta informatiky Masarykovy univerzity',
-      schoolAddress: 'Botanická 68a',
-      schoolCity: 'Brno',
-      schoolPostalCode: '602 00',
+      schoolName: 'Gymnázium Blansko',
+      schoolAddress: 'Seifertova 13',
+      schoolCity: 'Blansko',
+      schoolPostalCode: '678 01',
       schoolCountry: 'cz',
     });
   }
