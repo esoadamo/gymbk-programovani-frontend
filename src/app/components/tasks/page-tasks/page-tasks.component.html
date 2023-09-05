@@ -1,12 +1,3 @@
-<div class="settings-container">
-  <button *ngIf="true"
-          (click)="showSettings()"
-          class="btn btn-outline-primary"
-  >
-    {{'tasks.settings.open-button' | translate}}
-  </button>
-</div>
-
 <ksi-spinner [source]="nonEmptyWaves$"></ksi-spinner>
 <ng-container *ngIf="(viewMode$ | async) !== 'graph' ; else graph">
   <accordion class="waves" [isAnimated]="true">

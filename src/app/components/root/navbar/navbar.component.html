@@ -10,15 +10,6 @@
         <a class="nav-btn" [routerLink]="['/', routes.routes.tasks._]" routerLinkActive="active" (click)="hideFullMenu($event)">
           {{'root.navbar.category.tasks' | translate}}
         </a>
-        <a class="nav-btn" [routerLink]="['/', routes.routes.results]" routerLinkActive="active" (click)="hideFullMenu($event)">
-          {{'root.navbar.category.results' | translate}}
-        </a>
-        <a class="nav-btn" [routerLink]="['/', routes.routes.news]" routerLinkActive="active" (click)="hideFullMenu($event)">
-          {{'root.navbar.category.news' | translate}}
-        </a>
-        <a class="nav-btn" [routerLink]="['/', routes.routes.discussion]" routerLinkActive="active" (click)="hideFullMenu($event)">
-          {{'root.navbar.category.discussion' | translate}}
-        </a>
         <a *ngIf="(userService.isTester$ | async)" class="nav-btn"
            [routerLink]="['/', routes.routes.admin._]"
            routerLinkActive="active" (click)="hideFullMenu($event)">

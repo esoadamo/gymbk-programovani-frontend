@@ -7,7 +7,7 @@ import { ROUTES } from '../routes/routes';
 import { PagePrivacyPolicyComponent } from './components/privacy-policy/page-privacy-policy/page-privacy-policy.component';
 
 const routes: Routes = [
-  { path: '',   component: PageWelcomeComponent, pathMatch: 'full' },
+  { path: '',   redirectTo: ROUTES.tasks._, pathMatch: 'full' },
   { path: '403', component: PageForbiddenComponent },
   { path: '404', component: PageNotFoundComponent },
   { path: ROUTES.privacyPolicy, loadChildren: () => import('./components/privacy-policy/privacy-policy.module').then((m) => m.PrivacyPolicyModule) },
