@@ -5,7 +5,7 @@ const doNothing = (): void => {};
 
 export const environment: Environment = {
   production: true,
-  backend: 'https://gymbkprg.adamhlavacek.com/api',
+  backend: 'https://api-prg.gumbk.cz',
   edulint: {
     url: 'https://edulint.com',
     version: '2.10.2',
