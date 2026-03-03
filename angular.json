@@ -91,44 +91,6 @@
                 }
               ]
             },
-            "kyzikos": {
-              "buildOptimizer": true,
-              "optimization": true,
-              "vendorChunk": true,
-              "extractLicenses": false,
-              "sourceMap": false,
-              "namedChunks": true,
-              "baseHref": "/",
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.kyzikos.ts"
-                },
-                {
-                  "replace": "src/routes/routes.ts",
-                  "with": "src/routes/routes.cs.ts"
-                }
-              ]
-            },
-            "kleobis": {
-              "buildOptimizer": true,
-              "optimization": true,
-              "vendorChunk": true,
-              "extractLicenses": false,
-              "sourceMap": false,
-              "namedChunks": true,
-              "baseHref": "/",
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.kleobis.ts"
-                },
-                {
-                  "replace": "src/routes/routes.ts",
-                  "with": "src/routes/routes.cs.ts"
-                }
-              ]
-            },
             "proxy": {
               "buildOptimizer": false,
               "optimization": false,

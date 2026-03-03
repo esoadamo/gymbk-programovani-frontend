@@ -6,7 +6,7 @@ import { PageForbiddenComponent } from './components/root/page-forbidden/page-fo
 import { ROUTES } from '../routes/routes';
 
 const routes: Routes = [
-  { path: '', component: PageWelcomeComponent, pathMatch: 'full' },
+  { path: '',   redirectTo: ROUTES.tasks._, pathMatch: 'full' },
   { path: '403', component: PageForbiddenComponent },
   { path: '404', component: PageNotFoundComponent },
   { path: ROUTES.privacyPolicy, loadChildren: () => import('./components/privacy-policy/privacy-policy.module').then((m) => m.PrivacyPolicyModule) },
